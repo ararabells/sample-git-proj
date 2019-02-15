@@ -46,6 +46,7 @@ class Change extends Component {
       handleAddUser = e => {
         console.log('PASSED HANDLE ADD USER');
         console.log(this.state.userList);
+        console.log('edi wow');
     
         let user = this.state.user;
         let userList = [...this.state.userList];
